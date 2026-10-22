@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-71-crl-rs-merkle-tree-lacks-leaf-node-domain",
+    "fix/issue-72-no-dockerignore-copy-bakes-node-modules-env-and",
+    "fix/issue-74-deploy-contracts-sh-echoes-the-admin-secret-key",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-71-crl-rs-merkle-tree-lacks-leaf-node-domain": "main",
+    "fix/issue-72-no-dockerignore-copy-bakes-node-modules-env-and": "main",
+    "fix/issue-74-deploy-contracts-sh-echoes-the-admin-secret-key": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-71-crl-rs-merkle-tree-lacks-leaf-node-domain",
+    "fix/issue-72-no-dockerignore-copy-bakes-node-modules-env-and",
+    "fix/issue-74-deploy-contracts-sh-echoes-the-admin-secret-key",
+    "origin"
+  ]
+}
